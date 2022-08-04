@@ -1,0 +1,31 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restdynamicoauth2account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "ALPHA VANTAGE"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "expression": false,
+                "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                "sym_iv": "/zdtjdBTkujlRI4pa2WAUQ==",
+                "sym_key": "I3PAdJS+W0TQ9LnUYr/F/42KXYHOtXc6pqiJYaVMJvVyao/gx/071XufBIcQVttGZTVXR8T675QTgfF84v3RRhjiH8/3sHtfgbPZp0lYUL3DES+gj+2tWhIJoDohva6a6DheBm5m9hRa1UCTlgZsDiH98fmodPrpTshPrgvZMG1LkpwDwH8EM1ybUCaBhaljprn0iM6BH1U5MYk5Q2F8ZYEMACRz/53r0ApjgeaSZbAblcu2ODmtoe0BIDWEFdl0g11m7cFhOYBgj3ut9j5pbdzygoX9j6fhGhSqsZfo/A6LKgKo8qDkyJrjcHPtUOp3/SIxd9lMTXSYo2Iyd7T2OQ==",
+                "value": "xnLuacZjdnkwrKNr9neg1MZzIH4S0UzZgLO0wcAEK0U="
+            },
+            "headerAuth": {
+                "value": false
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-sqlserverdatabaseaccount",
+    "class_version": 3,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "AZURE_SQLServer_RN"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": [
+                            {
+                                "urlPropertyName": {
+                                    "value": "selectMethod"
+                                },
+                                "urlPropertyValue": {
+                                    "value": "cursor"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "Azure-Sample"
+                    },
+                    "hostname": {
+                        "value": "azure-dp-900.database.windows.net"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                    },
+                    "password": {
+                        "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                        "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                        "sym_iv": "0RH7MbD6Swz896Jyh/qPPg==",
+                        "sym_key": "BOMO9y9CUbVtDZPzgGs0jdzYe8AEEzj11oh/xD5ejYno+Y0Rmff/xZvE266+Exl66yoedcpQMzLQulpDZ3YqzEAPXk30mJ5PPp0Kkx6oGrG8vPOYmBfanBeA+TWt5/z0REfpnxdN0ZiWV1C0SVEJ7kRRUHreDrJwEpjxf1FunSN8GrkA96x9ec8/+ev/iRCRgppkGMey9CiBnaoJi542KNEWnGAdIM+rRV9+t4oAzu2rWw+UAmodMueawBM1LDIIAJbnqiywaTBjfIB32q2PeOX0w+AMAy85hQhadNQuhFB92TrmVI4229bvLNHaWzgPWng7gqia5dY3T9lsukRBrQ==",
+                        "value": "hZUoAxV81leFb570HwzcJA=="
+                    },
+                    "portNumber": {
+                        "value": 1433
+                    },
+                    "username": {
+                        "value": "cloud_admin"
+                    },
+                    "version": {
+                        "value": "SQLSERVER2008"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

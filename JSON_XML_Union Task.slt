@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "JSON_XML_Union Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "pipeline_parameters": {},
+        "pipeline_path": "JSON_XML_Union",
+        "snaplex_path": "DEV-Cloud",
+        "watchdog": {
+            "instances": 1,
+            "per": "PLEX"
+        }
+    },
+    "schedule": {
+        "always_on": true
+    },
+    "trigger": {
+        "always_on": true
+    },
+    "trigger_type": "ScheduleTrigger"
+}

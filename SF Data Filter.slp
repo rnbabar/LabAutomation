@@ -1,0 +1,541 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link100": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link102": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "rdill@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000001_input0": {
+                "label": {
+                    "value": "Mapper - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000002_output0": {
+                "label": {
+                    "value": "Mapper1 - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "447b0fa7-8113-6fd9-21fe-1a57dde572d5_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$BillingState == $original.Req_Date"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "CA"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Req_Date"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper1"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$AccountNumber"
+                                        },
+                                        "targetPath": {
+                                            "value": "$a"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$AccountNumber"
+                                        },
+                                        "targetPath": {
+                                            "value": "$b"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BillingAddress.city"
+                                        },
+                                        "targetPath": {
+                                            "value": "$c"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BillingAddress.postalCode"
+                                        },
+                                        "targetPath": {
+                                            "value": "$d"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BillingAddress.state"
+                                        },
+                                        "targetPath": {
+                                            "value": "$e"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BillingAddress.street"
+                                        },
+                                        "targetPath": {
+                                            "value": "$f"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-salesforce-read",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "SalesForce Acc",
+                                "value": "SalesForce Acc"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-salesforce-salesforceaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Salesforce Read"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "batchSize": {
+                        "value": 2000
+                    },
+                    "columnLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "columnOffset": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "contentType": {
+                        "value": "XML"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "ignoreEmptyResult": {
+                        "value": true
+                    },
+                    "includeDeleted": {
+                        "value": false
+                    },
+                    "limitClause": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "matchDataType": {
+                        "value": false
+                    },
+                    "numberOfRetries": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "objectType": {
+                        "expression": false,
+                        "value": "Account"
+                    },
+                    "orderbyClause": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "outputFields": {
+                        "value": []
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "pollingInterval": {
+                        "value": 5
+                    },
+                    "pollingTimeout": {
+                        "value": 3000
+                    },
+                    "processDateTime": {
+                        "value": true
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "salesforceApi": {
+                        "value": "REST API"
+                    },
+                    "serviceVersion": {
+                        "expression": false,
+                        "value": "52.0"
+                    },
+                    "whereClause": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 101
+            }
+        }
+    }
+}

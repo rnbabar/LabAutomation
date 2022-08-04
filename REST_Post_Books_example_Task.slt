@@ -1,0 +1,17 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "REST_Post_Books_example_Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "wyQC0J0bjWuIzrVnTyHHeta0Hl5CJlPB",
+        "pipeline_parameters": {},
+        "pipeline_path": "REST Post Books example",
+        "snaplex_path": "DEV-Cloud"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

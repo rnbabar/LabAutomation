@@ -1,0 +1,43 @@
+{
+    "class_id": "com-snaplogic-snaps-salesforce-salesforceaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SalesForce Acc"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "loginUrl": {
+                "value": "https://login.salesforce.com"
+            },
+            "password": {
+                "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                "sym_iv": "zvchz/2iOOYNmaCFpE0iDA==",
+                "sym_key": "oq/CWXfAgWROQw5Mo2GaYqlXyIYXklIeLS+FXsfA/7XhNp3//EOzPotNOSGRVwHEm1dIoUeNIP5a2u2j8lWIuK+zZJN6Pn8bBMR4rP0dHyLto8pSCr4s8u0vstFlp/VxkgJ4yZSmzZFPb29deFpkDnCnzi/wFB6T9PYTFh7a6EmlKiO9Mt4Vc4s+vBqLQrYhYSmUqORQ0o0cGj0ugfs7xukidf12XjM/EnC6txLIAjvv6SidUloI+dPJ47VnqORz80qqaraPF39ckTC6GBVKU6gfF3zGdimwoPjtIbNYttC6mmMa7QWzTDbcD5ecrTqOxR6/tGKTLa9jUzBtInRirA==",
+                "value": "uDLDsC/sjnoje4GHJVw2ZQ=="
+            },
+            "sandbox": {
+                "value": false
+            },
+            "securityToken": {
+                "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                "sym_iv": "EpFa61FWwzK8+urp4EWpZQ==",
+                "sym_key": "BunXOWfORiCWOpPdZKbgtR/n1R6RnK5w+jz1KtSwtTgsPlYe7SgRFht0VfYDUvuJn9yC2zuFU0c3xpfYc3pOXBn2SVrtn+vtytnAAgnNQFx14/NXynEuR0+W39sh0GktE9XkG0DZ7T5N2bcmBsWFZ6j+iZzF8wcDYPg9bINj5CB3HAw7HeoNoM+pW33vzrfMcl62/A1t4Z0bRcs3taoFsP7IWCyPXGKRKvTF8mFBvRzpp1DA5V3I8NwvQZvDK8JT4th4T5vZYhLGLhcFUGLijV5ZtKsdU2MYhmPHwwMA/G7EI4Kd67lbCHAZvCKKdwXZNuTFGKtUSo9sG+hXHfgS4Q==",
+                "value": "9/0P6P6VNbiEH4krdxRDORNVT6Ec+3wP9yz3tUkx+6o="
+            },
+            "username": {
+                "value": "rnbabar@force.com"
+            }
+        },
+        "view_serial": 100
+    }
+}

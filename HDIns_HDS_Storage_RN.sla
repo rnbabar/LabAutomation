@@ -1,0 +1,46 @@
+{
+    "class_id": "com-snaplogic-snaps-hadoop-binaryazureaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "HDIns_HDS_Storage_RN"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "BlobEndpoint": {
+                "expression": false,
+                "value": null
+            },
+            "accountName": {
+                "expression": false,
+                "value": "hdinsclusterdhdistorage"
+            },
+            "authTypeKey": {
+                "value": "Access Key"
+            },
+            "primaryAccessKey": {
+                "expression": false,
+                "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                "sym_iv": "uiUliH6RolxfG5aNMfQ/Jg==",
+                "sym_key": "QDzTkOMhQYJG5Roxgfcxp6aF6dLx4vDmgvU719gnhp0IjKgus8UB1HeU3ZkVosqb686efLcfa11qmnc6VUhQHgxgTVPxnY/xf74JOqgKpQVe2U7R3cAZhIo7hr82TF7rTv21Px7RinTWoQCm4eN9R8RjS4iyQLnNeV7KDl+maffAFaO2P0+LJNxWmoXK9XWR/+lkzI5WgVKiiH5pWfYcceyZDFdlsGNcqwUUrRoN7vblvXOmZOKAG0P4NhvrqMy+pTjlLzo0aZSP8oRRQoxmDEJgTj9dN/EdQ3Uv9oFx8tmTBvkqh7kOAxHMU7BQCrXqrvxBkUZvrNjkZGmQs7079g==",
+                "value": "0eFOTG89YGyqbSdGxjx+r7zhvCmdBCxOZ2itAQoWwlbGeOxKutQNZUrB2vTeW/isuq4kNz2nJPqUqtHlJObWUAjoPU4Jc9QoEr+AQyI3Xm30Ie7HvHVgkctZFkQSas9i"
+            },
+            "requestSizeInMB": {
+                "value": 4
+            },
+            "sasUriKey": {
+                "expression": false,
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}

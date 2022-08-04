@@ -1,0 +1,98 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-azuresqldatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SQL Server Azure Acc"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "AzureJdbcTrustAllCertsProp": {
+                        "value": true
+                    },
+                    "AzureStorageAccountNameProp": {
+                        "value": null
+                    },
+                    "AzureStorageContainerNameProp": {
+                        "value": null
+                    },
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "Azure-Sample"
+                    },
+                    "hostname": {
+                        "value": "azure-dp-900.database.windows.net"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                    },
+                    "password": {
+                        "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                        "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                        "sym_iv": "YqcT9ow4h5J08AvHRCakgw==",
+                        "sym_key": "ryNXD8tGQzOe9Q9jbSqZBPpUEQfD3TBXPtzbPVSEX0P7YTF/DPlOEnG28jGCDkQkyVfW1IMjGJYLR5p2nZJn/FS7mecCd4UlvqxA8wnJNMk3h0DPLWa3zMv8pmFY978M3Rp9tanoTiT81G0FV9luyCYhTw+GDEZRrr7vqxe7CDQKukNuIalxY9xLcdLRDrspFuJ3kY0f0SqCJNJnlHJvOzb7d0lmi4IPRiIdn5LFKBgp09coHGRVrV+mx+R/FvbrQjaC48WLLWEuaCZW0bhuYSnFO7B2glqJmAJOXOFcogJpiwA/SHdFkfjjwXlq6Gsecyw32Ab8vDyuIwHQY4x0Tw==",
+                        "value": "Dl+w2c8Hq7ElLJkP4/UhcQ=="
+                    },
+                    "portNumber": {
+                        "value": 1433
+                    },
+                    "username": {
+                        "value": "cloud_admin"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

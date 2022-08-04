@@ -1,0 +1,536 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link102": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link104": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output101"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "rab.nawaz@datapipertech.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000002_output102": {
+                "label": {
+                    "value": "Catalog Insert - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000003_output0": {
+                "label": {
+                    "value": "Catalog Query - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Reader"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "enableStaging": {
+                        "value": false
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": "TestSQL.Json"
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-jsonparser",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Parser"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "allowNonStandardJson": {
+                        "value": true
+                    },
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "jsonFilterPath": {
+                        "value": ""
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-snaplogic-cataloginsert",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Catalog Insert"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "create": {
+                        "value": true
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "location": {
+                        "expression": true,
+                        "value": "$filename"
+                    },
+                    "metadata": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "airlinefile"
+                                },
+                                "paramValue": {
+                                    "expression": false,
+                                    "value": "1"
+                                }
+                            }
+                        ]
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "expression": false,
+                                    "value": "airline_code"
+                                },
+                                "paramValue": {
+                                    "expression": false,
+                                    "value": "10"
+                                }
+                            }
+                        ]
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "/QA/shared/Docs_Test_Table1"
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-snaplogic-catalogquery",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Catalog Query"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {},
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "params": {
+                        "value": [
+                            {
+                                "operator": {
+                                    "value": "="
+                                },
+                                "paramName": {
+                                    "expression": false,
+                                    "value": "airline_code"
+                                },
+                                "paramValue": {
+                                    "expression": false,
+                                    "value": "10"
+                                }
+                            }
+                        ]
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "/QA/shared/Docs_Test_Table1"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-hadoop-parquetwritingformatter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Parquet Writer"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "data"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "Compression": {
+                        "value": "NONE"
+                    },
+                    "UserImpersonation": {
+                        "value": false
+                    },
+                    "database": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "directory": {
+                        "expression": false,
+                        "value": "s3:///snaplogic-test-data/test.data/raw/test/"
+                    },
+                    "editable_content": {
+                        "value": "message spark_schema {\n  optional binary flight_identifier (UTF8);\n  optional binary flight_number (UTF8);\n  optional binary flight_date (UTF8);\n  optional binary pln_dep_iata_station (UTF8);\n  optional binary pln_arr_iata_station (UTF8);\n  optional binary airline_code (UTF8);\n  optional binary actual_reg_number (UTF8);\n  optional binary act_dep_iata_station (UTF8);\n  optional binary act_arr_iata_station (UTF8);\n  optional binary sch_dep_datetime_utc (UTF8);\n  optional binary sch_dep_datetime_local (UTF8);\n  optional binary sch_arr_datetime_utc (UTF8);\n  optional binary sch_arr_datetime_local (UTF8);\n  optional binary act_dep_datetime_utc (UTF8);\n  optional binary act_dep_datetime_local (UTF8);\n  optional binary act_arr_datetime_utc (UTF8);\n  optional binary act_arr_datetime_local (UTF8);\n  optional binary flight_service_type (UTF8);\n  optional binary airline_name (UTF8);\n  optional binary airline_country_name (UTF8);\n  optional binary flight_suffix (UTF8);\n  optional binary flight_leg_number (UTF8);\n  optional binary flight_dep_number (UTF8);\n  optional binary flight_cabin_door_closure_date_local (UTF8);\n  optional binary flight_cargo_door_closure_date_local (UTF8);\n  optional binary flight_blocktime_orig (UTF8);\n  optional binary flight_blocktime_act (UTF8);\n  optional binary act_flight_out_datetime_utc (UTF8);\n  optional binary act_flight_out_datetime_local (UTF8);\n  optional binary act_flight_off_datetime_utc (UTF8);\n  optional binary act_flight_off_datetime_local (UTF8);\n  optional binary act_flight_in_datetime_utc (UTF8);\n  optional binary act_flight_in_datetime_local (UTF8);\n  optional binary act_flight_on_datetime_utc (UTF8);\n  optional binary act_flight_on_datetime_local (UTF8);\n  optional binary flight_delete_ind (UTF8);\n  optional binary pln_dep_icao_station (UTF8);\n  optional binary pln_arr_icao_station (UTF8);\n  optional binary act_dep_icao_station (UTF8);\n  optional binary act_arr_icao_station (UTF8);\n  optional binary flight_service_desc (UTF8);\n  optional group aircraft_details (MAP) {\n    repeated group map (MAP_KEY_VALUE) {\n      required binary key (UTF8);\n      optional binary value (UTF8);\n    }\n  }\n  optional group pln_reg_details (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group flight_delay_details (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group flight_si_dep_remarks (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group flight_si_arr_remarks (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group flight_status_details (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group flight_remarks (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group flight_door_remarks (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group est_flight_out_datetime (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group est_flight_off_datetime (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group est_flight_in_datetime (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group est_flight_on_datetime (LIST) {\n    repeated group bag {\n      optional group array (MAP) {\n        repeated group map (MAP_KEY_VALUE) {\n          required binary key (UTF8);\n          optional binary value (UTF8);\n        }\n      }\n    }\n  }\n  optional group act_runway_details (MAP) {\n    repeated group map (MAP_KEY_VALUE) {\n      required binary key (UTF8);\n      optional binary value (UTF8);\n    }\n  }\n  optional binary arr_bag_carousel_number (UTF8);\n  optional group act_arr_gate_details {\n    optional binary act_arr_gate_number (UTF8);\n    optional binary act_arr_concourse_number (UTF8);\n    optional binary act_arr_terminal_number (UTF8);\n  }\n  optional group act_bay_details {\n    optional binary act_dep_bay_number (UTF8);\n    optional binary act_arr_bay_number (UTF8);\n  }\n  optional group pln_arr_gate_details {\n    optional binary pln_arr_gate_number (UTF8);\n    optional binary pln_arr_concourse_number (UTF8);\n    optional binary pln_arr_terminal_number (UTF8);\n    optional binary pln_datetime_utc (UTF8);\n    optional binary arr_pln_datetime_local (UTF8);\n  }\n  optional group pln_arr_bay_details {\n    optional binary pln_arr_old_bay_number (UTF8);\n    optional binary pln_arr_new_bay_number (UTF8);\n    optional binary pln_arr_bay_change_reason_code (UTF8);\n    optional binary pln_arr_bay_change_reason_desc (UTF8);\n    optional binary arr_bay_recorded_datetime (UTF8);\n  }\n  optional group act_dep_gate_details {\n    optional binary act_dep_gate_number (UTF8);\n    optional binary act_dep_concourse_number (UTF8);\n    optional binary act_dep_terminal_number (UTF8);\n  }\n  optional group pln_dep_gate_details {\n    optional binary pln_dep_gate_number (UTF8);\n    optional binary pln_dep_concourse_number (UTF8);\n    optional binary pln_dep_terminal_number (UTF8);\n    optional binary pln_datetime_utc (UTF8);\n    optional binary dep_pln_datetime_local (UTF8);\n  }\n  optional group pln_dep_bay_details {\n    optional binary pln_dep_old_bay_number (UTF8);\n    optional binary pln_dep_new_bay_number (UTF8);\n    optional binary pln_dep_bay_change_reason_code (UTF8);\n    optional binary pln_dep_bay_change_reason_desc (UTF8);\n    optional binary dep_bay_recorded_datetime (UTF8);\n  }\n  optional binary flight_via_route (UTF8);\n  optional binary flight_call_sign (UTF8);\n  optional group pln_runway_details (LIST) {\n    repeated group bag {\n      optional group array {\n        optional binary pln_dep_runway (UTF8);\n        optional binary pln_arr_runway (UTF8);\n        optional binary version (UTF8);\n        optional binary datetime (UTF8);\n        optional binary helix_uuid (UTF8);\n        optional binary helix_time (UTF8);\n      }\n    }\n  }\n  optional group flight_cost_index_details (LIST) {\n    repeated group bag {\n      optional group array {\n        optional binary cost_index (UTF8);\n        optional binary version (UTF8);\n        optional binary datetime (UTF8);\n        optional binary helix_uuid (UTF8);\n        optional binary helix_time (UTF8);\n      }\n    }\n  }\n  optional group flight_pln_altn_airport_details (LIST) {\n    repeated group bag {\n      optional group array {\n        optional binary pln_alt_apt1_iata (UTF8);\n        optional binary pln_alt_apt1_icao (UTF8);\n        optional binary pln_alt_apt2_iata (UTF8);\n        optional binary pln_alt_apt2_icao (UTF8);\n        optional binary pln_alt_apt3_iata (UTF8);\n        optional binary pln_alt_apt3_icao (UTF8);\n        optional binary pln_alt_apt4_iata (UTF8);\n        optional binary pln_alt_apt4_icao (UTF8);\n        optional binary version (UTF8);\n        optional binary datetime (UTF8);\n        optional binary in_flight_status (UTF8);\n        optional binary helix_uuid (UTF8);\n        optional binary helix_time (UTF8);\n      }\n    }\n  }\n  optional binary pln_reg_number_latest (UTF8);\n  optional group pln_runway_details_latest {\n    optional binary pln_dep_runway (UTF8);\n    optional binary pln_arr_runway (UTF8);\n    optional binary version (UTF8);\n    optional binary datetime (UTF8);\n    optional binary helix_uuid (UTF8);\n    optional binary helix_time (UTF8);\n  }\n  optional group flight_cost_index_details_latest {\n    optional binary cost_index (UTF8);\n    optional binary version (UTF8);\n    optional binary datetime (UTF8);\n    optional binary helix_uuid (UTF8);\n    optional binary helix_time (UTF8);\n  }\n  optional group flight_pln_altn_airport_details_latest {\n    optional binary pln_alt_apt1_iata (UTF8);\n    optional binary pln_alt_apt1_icao (UTF8);\n    optional binary pln_alt_apt2_iata (UTF8);\n    optional binary pln_alt_apt2_icao (UTF8);\n    optional binary pln_alt_apt3_iata (UTF8);\n    optional binary pln_alt_apt3_icao (UTF8);\n    optional binary pln_alt_apt4_iata (UTF8);\n    optional binary pln_alt_apt4_icao (UTF8);\n    optional binary version (UTF8);\n    optional binary datetime (UTF8);\n    optional binary in_flight_status (UTF8);\n    optional binary helix_uuid (UTF8);\n    optional binary helix_time (UTF8);\n  }\n}"
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "file": {
+                        "expression": false,
+                        "value": "parquetesting1.parquet"
+                    },
+                    "filter": {
+                        "expression": false,
+                        "value": "*"
+                    },
+                    "hiveMetastore": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "partitionBy": {
+                        "value": []
+                    },
+                    "table": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "useMetastore": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        }
+    }
+}

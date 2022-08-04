@@ -1,0 +1,51 @@
+{
+    "class_id": "com-snaplogic-snaps-email-smtpaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "RabN_Email"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "connectionTimeout": {
+                "value": 60000
+            },
+            "emailId": {
+                "value": "rnbabar@gmail.com"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                "sym_iv": "qtrs+IdynGIW0zFkonNRVQ==",
+                "sym_key": "qVg3o31Zw1CyEBNnVQ6I4nOXGkInTf3Ho2wcqAohP1Roq4pGNzLzcfn+GOigQSkQ4jztCWApVqXSxBvvZQo87yS07P1U1NagE6vdKj6wagI4Ygn6nrYa5t1dYGhqeSzynDbzlO0kX1uRCHtY3LDCpdXYn6542FnoJfJvgRfY8A5OfBnmemEZvmFDfu2GKFWg+sGoU/63L/9zOn7wVXlShGdNw5m+UftEUWW0WJnsd+8iI/OFivyco6BMoJbc4mzVTv9mtIVGQ8dDWrpfVMJFH14670dNOJWVqSK9DTIrKOze/JuYQ/6i3prJLrz8ZaWIFxtCoSZ8mpKilavZ/HlrSQ==",
+                "value": "9lU7KNjj+NZj1hgPjkxOVw=="
+            },
+            "port": {
+                "value": "465"
+            },
+            "readTimeout": {
+                "value": 60000
+            },
+            "secureConnection": {
+                "value": "SSL"
+            },
+            "serverDomain": {
+                "value": "smtp.gmail.com"
+            },
+            "writeTimeout": {
+                "value": 60000
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Rest_Get_Books_By_Category Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "k105QZccwG4naLb5Q8or1aWl1ekJyeJv",
+        "pipeline_parameters": {
+            "Param_Category": "fiction"
+        },
+        "pipeline_path": "Rest_Get_Books_By_Category",
+        "snaplex_path": "DEV-Cloud"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
